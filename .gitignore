@@ -1,0 +1,7 @@
+venv/
+__pycache__/
+*.db
+.env
+.vscode/
+todo-frontend/node_modules/
+todo-frontend/dist/

@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  background: #f5f5f5;
+  color: #333;
+}
+
+.container {
+  max-width: 400px;
+  margin: 80px auto;
+  background: #fff;
+  padding: 32px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+input {
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+}
+
+input:focus {
+  border-color: #6366f1;
+}
+
+button {
+  padding: 10px;
+  background: #6366f1;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #4f46e5;
+}
+
+.error {
+  color: #ef4444;
+  font-size: 13px;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+p {
+  margin-top: 16px;
+  text-align: center;
+  font-size: 14px;
+}
+
+a {
+  color: #6366f1;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.todos-container {
+  max-width: 600px;
+  margin: 60px auto;
+  background: #fff;
+  padding: 32px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.todo-form {
+  flex-direction: row;
+  margin-bottom: 24px;
+}
+
+.todo-form input {
+  flex: 1;
+}
+
+.todo-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.todo-item span {
+  flex: 1;
+}
+
+.todo-item span.completed {
+  text-decoration: line-through;
+  color: #aaa;
+}
+
+.update-btn {
+  background: #f59e0b;
+  padding: 6px 12px;
+  font-size: 12px;
+}
+
+.update-btn:hover {
+  background: #d97706;
+}
+
+.delete-btn {
+  background: #ef4444;
+  padding: 6px 12px;
+  font-size: 12px;
+}
+
+.delete-btn:hover {
+  background: #dc2626;
+}
+
+.logout-btn {
+  margin-top: 24px;
+  width: 100%;
+  background: #6b7280;
+}
+
+.logout-btn:hover {
+  background: #4b5563;
+}
