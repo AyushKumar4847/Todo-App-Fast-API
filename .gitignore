@@ -4,4 +4,3 @@ __pycache__/
 .env
 .vscode/
 todo-frontend/node_modules/
-todo-frontend/dist/
